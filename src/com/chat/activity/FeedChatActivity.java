@@ -99,14 +99,16 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 					// show input
 					SystemUtil.showInputMethodManagerNow(mEditText , null);
 					moveListViewScroollToBottom();
-					onMenu(null);
+					onMenu(null , -1);
 				}
 				return true;
 			}
 		});
 
+	}
 
-
+	public EditText getEdiText(){
+		return mEditText;
 	}
 
 	private List<Info> initData(){
@@ -148,13 +150,21 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 
 
 
+	public void onMenuFuntion(View v){
+		onMenu(v , MenuLayout.FUNTION);
+		mMenuLayout.showFuntion();
+		
+	}
 
-
+	public void onMenuExpression(View v){
+		onMenu(v , MenuLayout.EXPRESSION);
+		mMenuLayout.showExpressionView();
+	}
 
 
 	// show or close menu
 	// return  if false , Menu is show
-	public  boolean onMenu(View v){
+	public  boolean onMenu(View v , int status){
 		if(!mState.isMenuShow){
 			mState.setMenuStateShow();
 			if(v != null){
@@ -163,9 +173,14 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 			}
 			return false;
 		}
-		mMenuLayout.closeMenu();
-		mState.setMenuStateClose();
-
+		
+		if(status == -1 ||mMenuLayout.getStatus() == status){
+			mMenuLayout.closeMenu();
+			mState.setMenuStateClose();	
+		}
+		
+		
+		
 		return true;
 	}
 
@@ -185,16 +200,16 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 	private void sendRecordMessage(String path , long recordTime){
 		setMessage(path , ChatListItem.CHAT_RIGHT , ChatItem.CHAT_VOICE , false);
 	}
-	
+
 	//send img message
 	private void sendImageMessage(String path){
 		setMessage(path, ChatListItem.CHAT_RIGHT, ChatItem.CHAT_IMAGE , true);
 	}
-	
+
 	//send text message
 	public boolean sendTextMessage(){
 		//这个消息不是在这里发送的，而是在对应控件发送的，这里主要是设置好需要的对象
-		
+
 		//get mesaage from editText
 		final String message = mEditText.getText().toString();
 		mEditText.setText("");
@@ -209,12 +224,12 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 		mChatAdapter.notifyDataSetChanged();
 		moveListViewScroollToBottom();
 	}
-	
+
 	@Override
 	public boolean onKeyUp(int keyCode, KeyEvent event){
 
 		if(keyCode == KeyEvent.KEYCODE_BACK){
-			if(onMenu(null)){
+			if(onMenu(null , -1)){
 				return true;
 			}
 		}
@@ -275,7 +290,7 @@ public class FeedChatActivity extends BarrageCommonActivity implements OnRecordL
 		 * <i>This parameter is only valid for the param of url and headUrl </i>
 		 */
 		public boolean isGetFromSdcard = false;
-		
+
 		/*
 		 * set head icon 
 		 * 

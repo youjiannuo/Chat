@@ -155,6 +155,7 @@ public class AccessNetwork {
 	 * get bitmap from network
 	 */
 	 private static String getBitmapFromNetwork(String filename , String url ,AsyPublish asy , Context context) {
+		 if(url == null || url.trim().length() == 0) return null;
 		 URL u; 
 		 HttpURLConnection conn = null; 
 		 InputStream in = null; 

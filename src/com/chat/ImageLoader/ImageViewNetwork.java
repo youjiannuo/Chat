@@ -189,6 +189,11 @@ public class ImageViewNetwork extends ImageView implements OnCecheNewBitmapAddLi
 			// TODO Auto-generated method stub
 			
 			Bitmap bitmap = null;
+			
+			if(mParams.url == null || mParams.url.trim().length() == 0){
+				return getImageObjectParams(mParams.erroDrawId);
+			}
+			
 			if(!isCancelleds()){
 
 				bitmap = AccessNetwork.getBitmapFromLocalOrNetWork(name, mParams, this);

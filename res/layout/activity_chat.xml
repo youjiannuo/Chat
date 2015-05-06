@@ -20,10 +20,17 @@
         android:layout_height="50dip" >
 
         <Button
+            
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onMenu"
-            android:text="显示菜单" />
+            android:onClick="onMenuFuntion"
+            android:text="功能" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMenuExpression"
+            android:text="表情" />
 
         <RelativeLayout
             android:layout_width="0dip"
@@ -38,10 +45,10 @@
 
             <com.chat.ui.RecordButton
                 android:id="@+id/recodingButton"
-                android:text="按住说话"
-                android:visibility="gone"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:text="按住说话"
+                android:visibility="gone" />
         </RelativeLayout>
 
         <com.chat.ui.MethodButton
