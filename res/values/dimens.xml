@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!---第一屏幕的-->
+    <dimen name="y_activity_home_with_invite_code_main_height">152dip</dimen>
+    <dimen name="y_activity_home_with_invite_code_1_height">38dip</dimen>
+    <dimen name="y_activity_home_with_invite_code_2_height">24dip</dimen>
+    <dimen name="y_activity_home_with_invite_code_3_height">38dip</dimen>
+    <dimen name="y_activity_home_with_invite_code_button_height">38dip</dimen>
+    <dimen name="y_activity_home_with_invite_code_button_width">240dip</dimen>
+    
+    <!--输入注册码屏幕-->
+    <dimen name="y_activity_invite_code_1_height">49dip</dimen>
+    <dimen name="y_activity_invite_code_2_height">52dip</dimen>
+    <dimen name="y_activity_invite_code_3_height">16dip</dimen>
+    <dimen name="y_activity_invite_code_4_height">39dip</dimen>
+    <dimen name="y_activity_invite_code_5_height">39dip</dimen>
+    <dimen name="y_activity_invite_code_6_height">26dip</dimen>
+    <dimen name="y_activity_invite_code_7_height">26dip</dimen>
+    <dimen name="y_activity_invite_code_8_height">120dip</dimen>
+    <dimen name="y_activity_invite_code_9_height">20dip</dimen>
+    <dimen name="y_activity_invite_code_10_height">25dip</dimen>
+    <dimen name="y_activity_invite_code_11_height">34dip</dimen>
+    <dimen name="y_activity_invite_code_1_width">270dip</dimen>
+    <dimen name="y_activity_invite_code_2_width">280dip</dimen>
+    <dimen name="y_activity_invite_code_3_width">120dip</dimen>
+    <dimen name="y_activity_invite_code_4_width">135dip</dimen>
+
+
+    <!--登录界面-->
+    <dimen name="y_activity_login_1_height">40dip</dimen>
+    <dimen name="y_activity_login_2_height">17dip</dimen>
+    <!--导航栏右边按钮marginRight的间距-->
+    <dimen name="b_navigationbar_margin_right">18dip</dimen>
+
+    <!--注册界面 -->
+    <dimen name="y_zhuche_1_height">30dip</dimen>
+    <dimen name="y_zhuche_2_height">52dip</dimen>
+    <dimen name="y_zhuche_3_height">16dip</dimen>
+    <dimen name="y_zhuche_4_height">30dip</dimen>
+    <dimen name="y_zhuche_5_height">34dip</dimen>
+
+    <dimen name="b_frined_marginright">14dip</dimen>
+
+    <!--头像大小-->
+    <dimen name="b_icon_size_44">44dip</dimen>
+    <!--主界面菜单的高度-->
+    <dimen name="y_mainview_menu_height">64dip</dimen>
+
+    <!--字体大小-->
+    <dimen name="b_font_navigation_title">17sp</dimen>
+
+    <dimen name="b_friend_tag_item_hieght">30dip</dimen>
+
+    <dimen name="y_head_portrait_raduio">41dip</dimen>
+
+
+
+    <!--圆角的半径-->
+    <dimen name="b_corners_radius">10px</dimen>
+    <!---弹幕的直径-->
+    <dimen name="b_comments_icon">86px</dimen>
+    <!---弹幕的字体大小-->
+    <dimen name="b_comments_font_size">11sp</dimen>
+
+    <!-- 标准 List View 分割线的间隔高度 -->
+    <dimen name="b_list_view_divider_height">1dp</dimen>
+
+    <!-- 标准 List View 大字体 -->
+    <dimen name="b_list_view_font_big">16sp</dimen>
+
+    <!-- 标准 List View 中字体 -->
+    <dimen name="b_list_view_font_medium">13sp</dimen>
+
+    <dimen name="y_font_34hao">17dp</dimen>
+
+    <!--Barrage Widget Size-->
+    <dimen name="y_barrage_main_inner_widget_width">800px</dimen>
+    <dimen name="y_barrage_main_inner_widget_height">800px</dimen>
+
+    <!--用户资料中的每项item的高度 -->
+    <dimen name="u_background">52dp</dimen>
+
+</resources>

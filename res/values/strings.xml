@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BarrageAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">BIBIJI</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_send">Send</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="picture_selection">Pictures Album</string>
+    <string name="add_subtitle">Click to add Subtitle</string>
+    <string name="action_next">Next</string>
+    <string name="action_ok">OK</string>
+    <string name="title_activity_login_home_with_invite_code">Login Home</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_email_login">EmailLoginActivity</string>
+    <string name="title_activity_mobile_login">MobileLoginActivity</string>
+    <string name="title_activity_enter_invite_code">EnterInviteCodeActivity</string>
+    <string name="title_activity_invite_code_pass">InviteCodePassActivity</string>
+    <string name="title_activity_email_register">EmailRegisterActivity</string>
+    <string name="y_shouyue">首页</string>
+    <string name="y_haiyou">好友</string>
+    <string name="y_first_center">任性发图，愉快弹屏</string>
+    <string name="y_first_yaoqingzhucema">邀请注册码</string>
+    <string name="y_first_haveId">已经有账号？</string>
+    <string name="y_first_load">直接登录</string>
+    <string name="y_input_inivie_code">请输入邀请码</string>
+    <string name="y_tijiao">提交</string>
+    <string name="y_shenghezhong">审核中...</string>
+    <string name="y_input_invie_code_photoshuo">或者拍一张你自己觉得非常有趣的\n照片给我们审核获取邀请码</string>
+    <string name="y_logn_text">请选择相应的登录方式</string>
+    <string name="y_long_other_idea">其他注册方式</string>
+    <string name="y_logn">登录</string>
+    <string name="y_inputphone">请输手机号</string>
+    <string name="y_inputpwd">请输入密码</string>
+    <string name="y_zhuce">注册</string>
+    <string name="codeisnull">邀请码不可以为空</string>
+    <string name="pleaseinput">请输入正确的电话号码</string>
+    <string name="y_pleaseinputpwd">请输入密码</string>
+    <string name="y_reginfail">注册失败</string>
+    <string name="y_pleaseinputEmail">请输入邮箱</string>
+    <string name="y_pleaseinoutEmailRight">请输入正确的邮箱</string>
+    <string name="y_pleaseinputQQ">请输入QQ</string>
+    <string name="y_todaycut_pleaseseeme">今天青春的外拍，求关注</string>
+    <string name="b_photo">图片相册</string>
+    <string name="b_camera">拍照</string>
+    <string name="b_share_main">分享</string>
+    <string name="b_comment">评论</string>
+    <string name="b_send">发送</string>
+    <string name="b_add_friends">添加好友</string>
+    <string name="b_own_info">个人资料</string>
+    <string name="b_feedback">意见反馈</string>
+    <string name="b_add_lable">添加标签</string>
+    <string name="title_activity_request_add_friend">RequestAddFriendActivity</string>
+    <string name="title_activity_search_user">SearchUserActivity</string>
+    <string name="title_activity_friend_detail">详细资料</string>
+    <string name="search_friend_find">没有找到</string>
+    <string name="search_friend_result">相关结果</string>
+    <string name="search_friend_hint">弹幕号/手机号/QQ号</string>
+    <string name="search_friend_inputnull">搜索的关键字不能为空</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="b_graffiti">涂鸦</string>
+    <string name="b_word">文字</string>
+    <string name="b_stickers">贴纸</string>
+    <string name="userinfo_modify">修改</string>
+    <string name="user_input_newpassword">请输入新密码</string>
+    <string name="user_input_oldpassword">请输入旧密码</string>
+    <string name="user_input_confirmpassword">请重复新密码</string>
+    <string name="title_activity_user_home_modify">UserHomeModifyActivity</string>
+    <string name="title_activity_user_modify_user_forresult">UserModifyUserForresult</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+    <string name="title_activity_user_modify_signature">UserModifySignature</string>
+    <string name="title_activity_user_signature_edit_text">UserSignatureEditTextActivity</string>
+    <string name="title_activity_user_home_modify_password">UserHomeModifyPasswordActivity</string>
+    <string name="title_activity_user_select_gender">UserSelectGenderActivity</string>
+    <string name="b_editext">编辑</string>
+    <string name="b_create_tab">创建标签</string>
+    <string name="b_tab_detail_info">标签详情</string>
+    <string name="b_editexttab">编辑标签</string>
+    <string name="b_OK">确定</string>
+    <string name="user_setting_save">存储</string>
+    <string name="b_create_tab_hinit">请输入标签名字，例如死党</string>
+
+    <string name="b_delete_tag">删除标签</string>
+    <string name="b_share_photo">分享照片</string>
+    <string name="b_friend_select_friend">选择好友</string>
+    <string name="b_complete">完成</string>
+    <string name="b_tag_is_not_null">请输入标签</string>
+    <string name="b_grid">网格</string>
+    <string name="b_share_to_who">分享给谁</string>
+
+
+    <string name="option_feedback">发布</string>
+    <string name="option_feedback_hint">请你在这里写下对BBJ的建议，我们会不断改进，谢谢支持!</string>
+    <string name="option_feedback_error">如果不能正常使用BBJ,请重启BBJ或者手机试试!</string>
+    <string name="option_feedback_edithint">手机或QQ(选填)</string>
+
+    <string name="b_share_move_barred_head">移动弹幕文字，满意后分享</string>
+    <string name="b_weixin_friend_circle">微信朋友圈</string>
+    <string name="b_weixin_friend">微信好友</string>
+    <string name="b_qq_zone">QQ空间</string>
+    <string name="b_xingliang">新浪微博</string>
+    <string name="b_next">下一步</string>
+    <string name="title_activity_user_email_edit_text">UserEmailEditTextActivity</string>
+    <string name="title_activity_user_phone_number_edit_text">UserPhoneNumberEditTextActivity</string>
+    <string name="title_activity_user_home_setting">UserHomeSettingActivity</string>
+    <string name="title_activity_user_home_setting_about">UserHomeSettingAboutActivity</string>
+    <string name="title_activity_user_home_setting_style">UserHomeSettingStyleActivity</string>
+    <string name="title_activity_user_home_setting_speed">UserHomeSettingSpeedActivity</string>
+    <string name="title_activity_option_feed_back">OptionFeedBackActivity</string>
+    <string name="title_activity_invite_my_friend">InviteMyFriendActivity</string>
+    <string name="title_activity_friend_detail_big_image_view">FriendDetailBigImageViewActivity
+    </string>
+    <string name="title_activity_sms_message_invite_my_friend">SmsMessageInviteMyFriendActivity
+    </string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="watch_friend_hudong">观看好友弹幕互动演示</string>
+    <string name="potion_botton_button_share_photo">点击底部中间按钮分享照片</string>
+    <string name="show">展示</string>
+    <string name="newmessage">新消息</string>
+    <string name="title_activity_feed_published_whatch_user_home_image">
+        FeedPublishedWhatchUserHomeImageActivity
+    </string>
+    
+    
+    
+</resources>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!--主界面下面按钮字体颜色-->
+    <color name="y_main_botton_font_color_press">#eb5052</color>
+    <color name="y_main_botton_font_color">#a4a6b4</color>
+
+    <color name = "y_firstview_button_color" >#ec5152</color>
+    <color name = "y_firstview_zhijiedenglu_color" >#ec5050</color>
+
+    <color name="y_inivite_code_pass">#DFDFDF</color>
+    <color name="y_inivite_code_pass_font">#848484</color>
+
+    <color name="y_comment_item_bg">#66000000</color>
+
+
+    <!--背景颜色-->
+    <color name="b_bg_color_gray">#f8f8f8</color>
+
+    <!---->
+    <color name="b_color_home_page_tab_bg">#f5f5f5</color>
+    <!--灰色-->
+    <color name="b_color_gray">#848484</color>
+    <!-- 按钮红色-->
+    <color name="b_color_red">#ec5152</color>
+    <!--透明颜色-->
+    <color name="b_color_alpha">#0000</color>
+
+    <!--字体颜色-->
+    <color name="b_font_black">#333333</color>
+
+    <color name="b_list_view_divider">#e7e7e7</color>
+
+    <!--用户资料中的背景颜色-->
+    <color name="user_background">#ffffff</color>
+
+</resources>

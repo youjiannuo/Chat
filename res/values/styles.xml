@@ -1,0 +1,75 @@
+<resources>
+
+     <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+
+    <style name="match_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+  
+    
+    
+   
+
+    <style name="chat_item" parent="wrap_content">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        
+    </style>
+
+
+    
+        
+    <style name="chat_item_Left" parent="chat_item">
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:background">@drawable/x_chat_left_bg</item>
+    </style>
+
+    <style name="chat_item_Right" parent="chat_item">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/x_chat_right_bg</item>
+    </style>
+    <style name="chat_item_Right_Image" parent="chat_item_Right">
+        <item name="android:layout_width">189dip</item>
+        <item name="android:layout_height">189dip</item>
+         <item name="android:maxWidth">190dip</item>
+        <item name="android:maxHeight">190dip</item>
+    </style>
+    <style name="chat_item_Left_Image" parent="chat_item_Left">
+        <item name="android:layout_width">189dip</item>
+        <item name="android:layout_height">189dip</item>
+         <item name="android:maxWidth">190dip</item>
+        <item name="android:maxHeight">190dip</item>
+    </style>
+    
+</resources>

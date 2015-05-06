@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/b_color_alpha"
+        android:divider="@color/b_color_alpha"
+        android:listSelector="@color/b_color_alpha"
+        android:stackFromBottom="true" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMenu"
+            android:text="显示菜单" />
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text" />
+
+            <com.chat.ui.RecordButton
+                android:id="@+id/recodingButton"
+                android:text="按住说话"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <com.chat.ui.MethodButton
+            android:id="@+id/someMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录音" />
+    </LinearLayout>
+
+    <com.chat.ui.MenuLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dip" />
+
+</LinearLayout>

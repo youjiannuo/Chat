@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chat.ui.UserAvatarView
+        android:id="@+id/userAvatarView"
+        android:layout_width="@dimen/b_icon_size_44"
+        android:layout_height="@dimen/b_icon_size_44" />
+
+
+
+    <RelativeLayout
+        android:id = "@+id/mainRelativewLayout"
+        android:layout_weight="1"
+        android:layout_width = "0dip"
+        style="@style/match_wrap">
+
+        <com.chat.ui.ChatTextTextView
+            android:id="@+id/chatTextView"
+            style="@style/chat_item_Left"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_toRightOf="@+id/chatTextView"
+            android:layout_alignBottom="@+id/chatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="5dip"
+            android:visibility="gone"
+            android:id="@+id/progressBarTextView"/>
+
+        <com.chat.ui.ChatVoiceTextView
+            android:layout_width="50dip"
+            android:gravity="left|center_vertical"
+            android:id="@+id/chatVoiceTextView"
+            style="@style/chat_item_Left"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_toRightOf="@+id/chatVoiceTextView"
+            android:layout_alignBottom="@+id/chatVoiceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginBottom="10dip"
+            android:visibility="gone"
+            android:id="@+id/progressBarVoiceTextView"/>
+
+        <com.chat.ui.ChatImageView
+            android:id="@+id/chatImageView"
+            style="@style/chat_item_Left_Image"/>
+        <ProgressBar
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_toRightOf="@+id/chatImageView"
+            android:layout_alignBottom="@+id/chatImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginBottom="10dip"
+            android:id="@+id/progressBarImageView"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="@dimen/b_icon_size_44"
+        android:layout_height="@dimen/b_icon_size_44" />
+
+
+</LinearLayout>
